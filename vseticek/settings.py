@@ -29,6 +29,8 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = [
     'vseticek.com',
     'www.vseticek.com',
+    'LOCALHOST',
+    '127.0.0.1',
 ]
 
 if DEBUG:

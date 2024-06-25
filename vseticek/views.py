@@ -4,4 +4,4 @@ def home_view(request):
     context = {
         'page_title': 'Vseticek.com'
         }
-    return render(request, 'home.html', context)
+    return render(request, 'portfolio.html', context)
