@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Django Poll</h5>
+                        <p class="card-text">A public site that lets people view polls and vote in them.
+                            Official Django tutorial project.</p>
+                        <a href="{% url 'insurance_home' %}" class="btn btn-primary">Go to Project 1</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Insurance page</h5>
+                        <p class="card-text">ITnetwork final project. Difficult version.</p>
+                        <a href="https://example.com/project2" class="btn btn-primary">Go to Project 2</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Placeholder</h5>
+                        <p class="card-text">Project not yet planned.</p>
+                        <a href="https://example.com/project3" class="btn btn-primary">Go to Project 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

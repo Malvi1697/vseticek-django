@@ -1,7 +1,7 @@
 .DS_STORE
 .env
 env/
-
+sudo
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
