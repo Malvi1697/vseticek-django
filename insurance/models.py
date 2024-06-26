@@ -1,12 +1,10 @@
 from django.db import models
 
 
-# Create your models here.
-
 class InsuranceSubject(models.Model):
-    name = models.CharField(max_length=64)
-    surname = models.CharField(max_length=64)
-    email = models.EmailField(blank=True)
+    name = models.CharField(max_length=64, verbose_name="Name")
+    surname = models.CharField(max_length=64, verbose_name="Surname")
+    email = models.EmailField(blank=True, verbose_name="Email")
     adress = models.CharField(max_length=128)
     phone_number = models.IntegerField()
     city = models.CharField(max_length=64)
